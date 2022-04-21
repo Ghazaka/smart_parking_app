@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_print
 import 'package:flutter/material.dart';
 import './scan.dart';
-import 'sidebar.dart';
+import './sidebar.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);

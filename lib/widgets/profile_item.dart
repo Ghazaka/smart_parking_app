@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './string_extension.dart';
+import '../extensions/string_extension.dart';
 
 class ProfileItem extends StatelessWidget {
   const ProfileItem(
@@ -22,10 +22,10 @@ class ProfileItem extends StatelessWidget {
         children: [
           Text(
             dataType.trim().capitalize(),
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 18,
               fontFamily: 'OpenSans',
-              color: Colors.grey,
+              color: Colors.black.withOpacity(0.6),
             ),
           ),
           Text(

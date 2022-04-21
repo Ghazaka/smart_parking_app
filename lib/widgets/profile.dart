@@ -49,8 +49,8 @@ class Profile extends StatelessWidget {
             child: Column(
               children: const [
                 ProfileItem("name", "Ghaza Kaysan Akmal"),
-                ProfileItem("address", "My Address"),
                 ProfileItem("email", "akmalkay12@gmail.com"),
+                ProfileItem("address", "My Address"),
               ],
             ),
           ),
