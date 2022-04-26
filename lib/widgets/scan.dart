@@ -103,7 +103,7 @@ class _ScannerState extends State<Scanner> {
     });
     controller.scannedDataStream.listen((scanData) async {
       if (scanData.code!.startsWith('https')) {
-        if (await launch(scanData.code!)) {
+        if (await launchUrl(Uri.parse(scanData.code!))) {
           throw 'Could not launch ${scanData.code}';
         }
       }
